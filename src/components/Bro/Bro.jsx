@@ -3,7 +3,7 @@ import { MoneyContext } from "../Grandpa/Grandpa";
 
 
 const Bro = () => {
-    const []=useContext(MoneyContext);
+    const [money]=useContext(MoneyContext);
     return (
         <div>
             <h2>Brother</h2>
